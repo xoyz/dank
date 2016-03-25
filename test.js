@@ -1,4 +1,4 @@
-var dank = require('./dank.js');
+var dank = require('./node/dank.js');
 
 dank.async(function() {
   global.res = dank.randomString(13);

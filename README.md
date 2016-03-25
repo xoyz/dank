@@ -4,10 +4,11 @@
 No dependencies, seriously, this doesn't need one. And doesn't need jQuery either LUL.
 
 ## Installation
-Download dank.js
-Add it to your page with `<script src="path-to-dank"></script>`
+Download ./dank.js or node/dank.js
 
-Or to your node app with `var dank = require('dank')`
+Add it to your page with `<script src="path-to-dank/dank.js"></script>`
+
+Or to your node app with `var dank = require('path-to-dank/dank')`
 
 ## API
 
