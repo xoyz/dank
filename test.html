@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testing dank with browser console</title>
+</head>
+<body>
+  <script src="dank.js"></script>
+  <script>
+    dank.async(function() {
+      var res = dank.randomString(13);
+      dank.log('Generated: ' + res);
+    }, function() {
+      dank.log('Hello from another function!')
+    });
+
+    console.log('Not really interesting, right?');
+    dank.log('And why did I used console.log instead of dank.log?');
+  </script>
+</body>
+</html>

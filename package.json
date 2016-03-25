@@ -1,0 +1,25 @@
+{
+  "name": "dank",
+  "version": "1.0.0",
+  "description": "Small library of some useful functions",
+  "main": "dank.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xoyz/dank.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Library",
+    "Functions",
+    "Small"
+  ],
+  "author": "xoyz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoyz/dank/issues"
+  },
+  "homepage": "https://github.com/xoyz/dank#readme"
+}
